@@ -11,6 +11,8 @@ export class SmallCardComponent implements OnInit {
   photocover:string ="" //"https://archive.org/download/placeholder-image/placeholder-image.jpg"
   @Input()
   cardTitle:string = "" //"Nova versão do Angular"
+  @Input()
+  Id:string = "0"
 
 
   constructor() { }
